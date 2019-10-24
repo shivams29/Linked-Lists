@@ -1,11 +1,16 @@
+//Circular Linked List Program 
 #include<iostream>
 using namespace std;
+
+//Creation of Node Using Structure
 struct node
 {
 	int data;
 	node*prev;
 	node*next;
 };
+
+
 class doublink
 {
 	node*head;
@@ -115,6 +120,9 @@ class doublink
 			delete(temp);
 		}
 };
+
+//Starting of main
+
 int main()
 {
 	int choice,choice2,size,num,n,posa;
