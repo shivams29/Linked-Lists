@@ -1,11 +1,18 @@
+//Single Linked List
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
+
+//Creation of node
+
 struct node
 {
 	int data;
 	node *next;
 };
+
+
 class linked
 {
 	node *head,*tail;
@@ -126,6 +133,9 @@ class linked
 		
 	
 };
+
+//Starting Of main 
+
 int main()
 {
 	linked a;
